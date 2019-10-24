@@ -3,7 +3,7 @@
 
 	<test name="Automation">
 		<classes>
-			<class name="com.apt.runners.CukesRunner"></class>
+			<class name="com.iLab.runners.TestRunner"></class>
 		</classes>
 	</test>
 </suite>

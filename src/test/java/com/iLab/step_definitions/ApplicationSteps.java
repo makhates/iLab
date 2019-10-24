@@ -1,5 +1,6 @@
 package com.iLab.step_definitions;
 
+import com.iLab.ExcelData.ApplicationDetails;
 import com.iLab.pages.ApplicationPage;
 import com.iLab.utilities.ConfigurationReader;
 import com.iLab.utilities.Driver;
@@ -22,11 +23,16 @@ public class ApplicationSteps {
     private WebDriver driver = Driver.getDriver();
     Logger log = Logger.getLogger(ApplicationSteps.class);
 
+    //option to read from excel sheet
+    ApplicationDetails applyData = new ApplicationDetails();
+
     @And("^User applies for a preferred position \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\"$")
     public void userAppliesForAPreferredPosition(String Name, String Email, String PhoneNumber) throws Throwable {
 
 
         try {
+            /*Option to read data from excel is available depending on the need */
+
             //capturing application details and submit
             applyPage.applicantName.clear();
             applyPage.applicantName.sendKeys(Name);

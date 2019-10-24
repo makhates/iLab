@@ -1,6 +1,6 @@
 package com.iLab.ExcelData;
 
-public class ApplivationDetails {
+public class ApplicationDetails {
 	private String firstName;
 	private String lastName;
 	private String officePhone;
