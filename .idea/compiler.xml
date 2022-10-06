@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="25.cucumber-testng-automation" target="1.8" />
-      <module name="iLab" target="1.8" />
+      <module name="iLab" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

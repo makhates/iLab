@@ -2,6 +2,8 @@ package com.iLab.step_definitions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.After;
+import org.junit.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +11,6 @@ import org.openqa.selenium.WebDriver;
 import com.iLab.utilities.Driver;
 
 import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
 
 
 //import io.cucumber.java.After;
